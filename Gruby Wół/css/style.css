@@ -264,27 +264,11 @@ footer a {
 }
 @media (min-width: 992px) {
   .header-img {
+    max-width: 683px;
     height: 600px;
+    background-size: cover;
+    background-position: center;
     background-image: url(../img/top-big.png);
-    background-position-y: -60px;
-  }
-}
-@media (min-width: 1200px) {
-  .header-img {
-    height: 800px;
-    background-image: url(../img/top-largest.jpg);
-    background-position-y: -200px;
-  }
-  .header-text {
-    display: block;
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-    color: white;
-    font-size: 150px;
-    font-weight: bold;
+    background-position-y: -50px;
   }
 }/*# sourceMappingURL=style.css.map */
