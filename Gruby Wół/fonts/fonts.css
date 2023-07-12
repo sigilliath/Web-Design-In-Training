@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-ThinExtendedItalic.eot');
+    src: local('Sole Sans Extended Thin It'), local('SoleSans-ThinExtendedItalic'),
+        url('SoleSans-ThinExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-ThinExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-ThinExtendedItalic.woff') format('woff'),
+        url('SoleSans-ThinExtendedItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-RegularExtended.eot');
+    src: local('Sole Sans Extended Regular'), local('SoleSans-RegularExtended'),
+        url('SoleSans-RegularExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-RegularExtended.woff2') format('woff2'),
+        url('SoleSans-RegularExtended.woff') format('woff'),
+        url('SoleSans-RegularExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-BookExtendedItalic.eot');
+    src: local('Sole Sans Extended Book It'), local('SoleSans-BookExtendedItalic'),
+        url('SoleSans-BookExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-BookExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-BookExtendedItalic.woff') format('woff'),
+        url('SoleSans-BookExtendedItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-MediumExtended.eot');
+    src: local('Sole Sans Extended Medium'), local('SoleSans-MediumExtended'),
+        url('SoleSans-MediumExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-MediumExtended.woff2') format('woff2'),
+        url('SoleSans-MediumExtended.woff') format('woff'),
+        url('SoleSans-MediumExtended.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-ExtraBoldExtended.eot');
+    src: local('Sole Sans Extended XtraBold'), local('SoleSans-ExtraBoldExtended'),
+        url('SoleSans-ExtraBoldExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-ExtraBoldExtended.woff2') format('woff2'),
+        url('SoleSans-ExtraBoldExtended.woff') format('woff'),
+        url('SoleSans-ExtraBoldExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-ExtraBoldExtendedItalic.eot');
+    src: local('Sole Sans Extended XBold It'), local('SoleSans-ExtraBoldExtendedItalic'),
+        url('SoleSans-ExtraBoldExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-ExtraBoldExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-ExtraBoldExtendedItalic.woff') format('woff'),
+        url('SoleSans-ExtraBoldExtendedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-BoldExtended.eot');
+    src: local('Sole Sans Extended Bold'), local('SoleSans-BoldExtended'),
+        url('SoleSans-BoldExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-BoldExtended.woff2') format('woff2'),
+        url('SoleSans-BoldExtended.woff') format('woff'),
+        url('SoleSans-BoldExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-BlackExtendedItalic.eot');
+    src: local('Sole Sans Extended Black It'), local('SoleSans-BlackExtendedItalic'),
+        url('SoleSans-BlackExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-BlackExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-BlackExtendedItalic.woff') format('woff'),
+        url('SoleSans-BlackExtendedItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-SemiBoldExtended.eot');
+    src: local('Sole Sans Extended SemiBold'), local('SoleSans-SemiBoldExtended'),
+        url('SoleSans-SemiBoldExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-SemiBoldExtended.woff2') format('woff2'),
+        url('SoleSans-SemiBoldExtended.woff') format('woff'),
+        url('SoleSans-SemiBoldExtended.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-RegularExtendedItalic.eot');
+    src: local('Sole Sans Extended Rg It'), local('SoleSans-RegularExtendedItalic'),
+        url('SoleSans-RegularExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-RegularExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-RegularExtendedItalic.woff') format('woff'),
+        url('SoleSans-RegularExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-LightExtendedItalic.eot');
+    src: local('Sole Sans Extended Light It'), local('SoleSans-LightExtendedItalic'),
+        url('SoleSans-LightExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-LightExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-LightExtendedItalic.woff') format('woff'),
+        url('SoleSans-LightExtendedItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-LightExtended.eot');
+    src: local('Sole Sans Extended Light'), local('SoleSans-LightExtended'),
+        url('SoleSans-LightExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-LightExtended.woff2') format('woff2'),
+        url('SoleSans-LightExtended.woff') format('woff'),
+        url('SoleSans-LightExtended.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-BoldExtendedItalic.eot');
+    src: local('Sole Sans Extended Bold It'), local('SoleSans-BoldExtendedItalic'),
+        url('SoleSans-BoldExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-BoldExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-BoldExtendedItalic.woff') format('woff'),
+        url('SoleSans-BoldExtendedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-SemiBoldExtendedItalic.eot');
+    src: local('Sole Sans Extended SmBd It'), local('SoleSans-SemiBoldExtendedItalic'),
+        url('SoleSans-SemiBoldExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-SemiBoldExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-SemiBoldExtendedItalic.woff') format('woff'),
+        url('SoleSans-SemiBoldExtendedItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-BlackExtended.eot');
+    src: local('Sole Sans Extended Black'), local('SoleSans-BlackExtended'),
+        url('SoleSans-BlackExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-BlackExtended.woff2') format('woff2'),
+        url('SoleSans-BlackExtended.woff') format('woff'),
+        url('SoleSans-BlackExtended.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-MediumExtendedItalic.eot');
+    src: local('Sole Sans Extended Md It'), local('SoleSans-MediumExtendedItalic'),
+        url('SoleSans-MediumExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-MediumExtendedItalic.woff2') format('woff2'),
+        url('SoleSans-MediumExtendedItalic.woff') format('woff'),
+        url('SoleSans-MediumExtendedItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-BookExtended.eot');
+    src: local('Sole Sans Extended Book'), local('SoleSans-BookExtended'),
+        url('SoleSans-BookExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-BookExtended.woff2') format('woff2'),
+        url('SoleSans-BookExtended.woff') format('woff'),
+        url('SoleSans-BookExtended.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sole Sans';
+    src: url('SoleSans-ThinExtended.eot');
+    src: local('Sole Sans Extended Thin'), local('SoleSans-ThinExtended'),
+        url('SoleSans-ThinExtended.eot?#iefix') format('embedded-opentype'),
+        url('SoleSans-ThinExtended.woff2') format('woff2'),
+        url('SoleSans-ThinExtended.woff') format('woff'),
+        url('SoleSans-ThinExtended.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,305 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: auto;
+	width: 100%;
+}
+
+html {
+	font-size: 62, 5%;
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+img {
+	height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+textarea {
+	resize: vertical;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'Sole Sans', sans-serif;
+	font-size: 0px;
+	background-color: black;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: black;
+	z-index: 1;
+}
+
+.nav-items a {
+	font-size: 13px;
+	padding: 0 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+header {
+	position: relative;
+}
+
+.header-img {
+	height: 200px;
+	background-image: url(../img/top-small.png);
+	background-size: cover;
+	background-position-y: -40px;
+}
+
+.header-text {
+	display: none;
+
+	h1 {
+		text-transform: uppercase;
+		font-size: 30px;
+		color: white;
+		letter-spacing: 1px;
+		text-shadow: 1px 1px 2px black;
+	}
+}
+
+.section {
+	scroll-margin-top: 50px;
+	padding: 20px 0;
+}
+
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+}
+
+.subsection {
+	padding: 10px;
+
+	h3 {
+		padding: 0 20px;
+		font-size: 20px;
+		color: white;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		text-align: center;
+	}
+}
+
+.table {
+	margin-top: 10px;
+	width: 100%;
+	font-size: 16px;
+	color: white;
+
+	td {
+		padding: 5px 10px;
+		span {
+			letter-spacing: 2px;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		p {
+			font-size: 12px;
+		}
+	}
+	.price {
+		width: 60px;
+	}
+}
+
+.table tr:nth-child(odd) {
+	background-color: rgb(55, 55, 55);
+}
+
+.about-us {
+	p {
+		padding: 10px 20px;
+		text-align: center;
+		font-size: 16px;
+		color: white;
+	}
+
+	.map {
+		width: 100%;
+		margin: 10px 0;
+		padding: 0 20px;
+	}
+	.hour {
+		text-align: right;
+	}
+}
+.social {
+	width: 100%;
+	th {
+		padding-bottom: 20px;
+		font-size: 14px;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.left {
+		text-align: right;
+	}
+	.right {
+		text-align-last: left;
+	}
+	a {
+		padding: 0 50px;
+		font-size: 50px;
+		color: white;
+	}
+}
+
+footer {
+	text-align: center;
+	a {
+		color: white;
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 500px) {
+	nav {
+		.nav-items a {
+			font-size: 20px;
+			padding: 0 40px;
+		}
+	}
+	.header-img {
+		height: 400px;
+		background-image: url(../img/top-big.png);
+		background-position-y: -60px;
+	}
+	.section {
+		scroll-margin-top: 60px;
+	}
+	.section-title {
+		font-size: 40px;
+	}
+	.subsection {
+		h3 {
+			margin-top: 30px;
+			font-size: 30px;
+			letter-spacing: 3px;
+		}
+	}
+	.table {
+		margin-top: 15px;
+		width: 100%;
+		font-size: 30px;
+		td {
+			padding: 5px 20px;
+			span {
+				letter-spacing: 3px;
+			}
+			p {
+				font-size: 16px;
+			}
+		}
+		.price {
+			width: 120px;
+		}
+	}
+	.about-us {
+		p {
+			font-size: 20px;
+			color: white;
+		}
+
+		.map {
+			height: 400px;
+		}
+	}
+	.social {
+		th {
+			font-size: 20px;
+			color: white;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.left {
+			text-align: right;
+		}
+		.right {
+			text-align-last: left;
+		}
+		a {
+			padding: 0 80px;
+			font-size: 50px;
+			color: white;
+		}
+	}
+	footer {
+		a {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.header-img {
+		height: 600px;
+		background-image: url(../img/top-big.png);
+		background-position-y: -60px;
+	}
+}
+@media (min-width: 1200px) {
+	.header-img {
+		height: 800px;
+		background-image: url(../img/top-largest.jpg);
+		background-position-y: -200px;
+	}
+	.header-text {
+		display: block;
+		position: absolute;
+		text-align: center;
+		text-transform: uppercase;
+		top: 50%;
+		left: 50%;
+		translate: -50% -50%;
+		color: white;
+		font-size: 150px;
+		font-weight: bold;
+	}
+}
